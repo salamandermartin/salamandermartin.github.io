@@ -1,0 +1,231 @@
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(10,10,10, 0.2);
+}
+
+a {
+    color: inherit;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('../assets/fonts/Poppins-Regular.ttf');
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.heading {
+    font-size: 35px;
+}
+
+.subheading {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+body {
+    height:100%;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.ic {
+    font-size: 40px;
+}
+
+#background {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background-image: url("../assets/colton-duke-nyclandscape.jpg");
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+#bg-content {
+    background-color: rgba(68,71,77, 0.35);
+    padding-top: 3px;
+    height:100%;
+    text-align: center;
+}
+
+#name {
+    margin: auto;
+    width: max-content;
+    background-color: rgba(0,0,0,0.6);
+    color:white;
+    border-radius: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#content {
+    text-align: center;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 21vw;
+    margin: auto;
+    background-color: rgba(68,71,77, 0.3);
+    border: solid;
+}
+
+.social-button{
+    height: 3vw;
+    width: 5vw;
+    padding: 1vw;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.social-button:hover{
+    background-color: white;
+    color:black;
+}
+
+#nav-menu{
+    text-align: left;
+    width: 20%;
+    background-color: rgba(15, 15, 15, 0.25);
+    margin-left: 32%;
+    margin-top: 3vw;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+}
+
+.nav-menu-btn span{
+    transition: 0.4s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    padding: 1vw;
+    text-align: center;
+}
+
+.nav-menu-btn span:after{
+    transition: 0.4s;
+    content: '\00bb';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+}
+
+.nav-menu-btn:hover span{
+    padding-right: 1vw;
+}
+
+.nav-menu-btn:hover span:after{
+    opacity:1;
+    right: 0;
+}
+
+#experience-container{
+    width: 55%;
+    text-align: left;
+    margin:auto;
+    padding: 2px;
+}
+
+#experiences{
+    display:flex;
+    flex-direction: column;
+    padding: 12px 4px 12px 8px;
+    background-color: rgba(68,71,77, 0.4);
+    border-radius: 8px;
+}
+
+.exp{
+    display: grid;
+    padding: 2px;
+    column-gap: 2vw;
+    grid-template-columns: auto 90%;
+    grid-template-rows: auto auto;
+}
+
+.exp-heading{
+    text-align: left;
+}
+
+.date{
+    margin-top: 0px;
+}
+
+#exp-item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#education{
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
+
+.ed-item{
+    display: grid;
+    padding: 2px;
+    column-gap: 2vw;
+    grid-template-columns: auto 90%;
+    grid-template-rows: auto auto;
+}
+
+#ed-item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#skills{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+.skill-type{
+    display: flex;
+    flex-direction: row;
+}
+
+#certifications{
+    margin: auto;
+    width: 60%;
+    text-align: left;
+}
+
+.cert-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.cert{
+    font-size: 24px;
+}
+
+.cert-img{
+    height: 80px;
+    width: 48px;
+    margin-right: 5px;
+}
+
+#interests{
+    margin:auto;
+}
