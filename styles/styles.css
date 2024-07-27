@@ -241,12 +241,12 @@ body {
 #skills{
     width: 60%;
     margin: auto;
-    text-align: left;
+    text-align: center;
 }
 
 .skill-type{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #certifications{
