@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: #BBCDE5;
+    background-color: #deeef5;
 }
 
 a {
@@ -70,11 +70,12 @@ h1 {
 }
 
 .heading {
-    font-size: 35px;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .subheading {
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 0px;
 }
 
@@ -193,7 +194,7 @@ body {
     display:flex;
     flex-direction: column;
     padding: 12px 4px 12px 8px;
-    background-color: rgba(68,71,77, 0.4);
+    /* background-color: rgba(68,71,77, 0.4); */
     border-radius: 8px;
 }
 
