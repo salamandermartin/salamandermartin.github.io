@@ -20,39 +20,6 @@ h1 {
     font-size: 50px;
 }
 
-.fadein {
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
-    -moz-animation: fadeIn 2s;
-    -o-animation: fadeIn 2s;
-    -ms-animation: fadeIn 2s;
-}
-
-@keyframes fadein {
-    0% {opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-@-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-  
-@-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-  
-@-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
 .tag {
     opacity: 0;
     transform: translate(0, 10vh);
@@ -77,6 +44,14 @@ h1 {
 .subheading {
     font-size: 22px;
     margin-bottom: 0px;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    /* top: -5000 px; Adjust this value to set the distance above the element */
+    visibility: hidden;
+    height: 20px;
 }
 
 body {
@@ -129,6 +104,7 @@ body {
     margin: auto;
     background-color: rgba(68,71,77, 0.3);
     border: solid;
+    text-decoration: none;
 }
 
 .social-button{
@@ -181,6 +157,12 @@ body {
 .nav-menu-btn:hover span:after{
     opacity:1;
     right: 0;
+}
+
+#about-me{
+    width: 30%;
+    margin: auto;
+    text-align: center;
 }
 
 #experience-container{

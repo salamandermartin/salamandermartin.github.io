@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/sticky_navbar.css">
+    <link rel="stylesheet" href="styles/animations.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
           
     <title>Martin Salamanca</title>
@@ -10,24 +12,118 @@
     <div id="background">
         <div id="bg-content">
             <div id="name" class="fadein"><h1>Martin Salamanca</h1></div>
-            <div id="socials" class="fadein">
+            <!-- <div id="socials" class="fadein">
                 <a href="https://www.linkedin.com/in/martin-salamanca-3a4143190/" target="_blank"><div class="social-button">   <i class="devicon-linkedin-plain colored ic"></i> </div> </a>
                 <a href="https://github.com/salamandermartin" target="_blank"><div class="social-button">   <i class="devicon-github-original colored ic"></i> </div> </a>
                 <a href="mailto: salamancam.programming@gmail.com"><div class="social-button">   <i class="devicon-google-plain ic"></i> </div> </a>
-            </div>
+            </div> -->
 
             <div id="nav-menu" class="fadein">
-                <a href="#experience-container"><div class="nav-menu-btn"><span>Experience</span></div></a>
-                <a href="#education"><div class="nav-menu-btn"><span>Education</span></div></a>
+                <a href="#about-me"><div class="nav-menu-btn"><span>About</span></div></a>
+                <a href="#xp-link"><div class="nav-menu-btn"><span>Resume</span></div></a>
+                <!-- <a href="#education"><div class="nav-menu-btn"><span>Education</span></div></a> -->
                 <a href="#projects"><div class="nav-menu-btn"><span>Projects</span></div></a>
-                <a href="#skills"><div class="nav-menu-btn"><span>Technical Skills</span></div></a>
-                <a href="#certifications"><div class="nav-menu-btn"><span>Certifications and Awards</span></div></a>
-                <a href="#interests"><div class="nav-menu-btn"><span>Interests</span></div></a>
+                <a href="#sk-link"><div class="nav-menu-btn"><span>Technical Skills</span></div></a>
+                <a href="#cert-link"><div class="nav-menu-btn"><span>Certifications</span></div></a>
+                <a href="#int-link"><div class="nav-menu-btn"><span>Interests</span></div></a>
+                <a href="#interests"><div class="nav-menu-btn"><span>Contact</span></div></a>
             </div>
         </div>
     </div>
 
+    <!-- <div id="nav_sticky">
+        <a href="#about-me"><span>About Me</span></a>
+        <a href="#experience-container"><span>Experience</span></a>
+        <a href="#education"><span>Education</span></a>
+        <a href="#projects"><span>Projects</span></a>
+        <a href="#skills"><span>Skills</span></a>
+        <a href="#certifications"><span>Certifications</span></a>
+        <a href="#interests"><span>Interests</span></a>
+        <a href="#contact"><span>Contact</span></a>
+    </div> -->
+
         <div id="content">
+
+            <div id="nav_sticky">
+                <a href="#about-me"><span>About Me</span></a>
+                <a href="#xp-link"><span>Experience</span></a>
+                <a href="#education"><span>Education</span></a>
+                <a href="#projects"><span>Projects</span></a>
+                <a href="#sk-link"><span>Skills</span></a>
+                <a href="#cert-link"><span>Certifications</span></a>
+                <a href="#int-link"><span>Interests</span></a>
+                <a href="#contact"><span>Contact</span></a>
+            </div>
+
+            <div id="xp-link" class="anchor"></div>
+            <div id="about-me" class="tag">
+                <p class="heading">About Me</p>
+                <p>Hey, I'm Martin. Right now, I especially love coding in Python and Kotlin.
+                     Most of my experience is in integrating machine learning or computer vision into full stack applications. I would
+                    love to learn anything new though! Hope to speak with you on any of these.</p>
+            </div>
+
+            <div id="sk-link" class="anchor"></div>
+            <div id="skills" class="tag">
+                <p class="heading">Technical Skills</p>
+                <div class="skill-type">
+                    <!-- <p>Programming Languages:</p> -->
+
+                    <div>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="logo"/>
+                    
+                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" class="logo"/> -->
+            
+                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" class="logo" /> -->
+          
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" class="logo" />
+
+                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class="logo" /> -->
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="logo" />
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="logo"/>
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="logo" />
+
+                    </div>
+                </div>
+
+                <div class="skill-type">
+                    <!-- <p >Libraries/Frameworks/Auxiliary Languages:</p> -->
+
+                    <div>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-plain.svg" class="logo"/>
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" class="logo" />
+
+                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" class="logo"/> -->
+            
+                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" class="logo" /> -->
+
+                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" class="logo" /> -->
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" class="logo" />
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" class="logo"/>
+            
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" class="logo"/>
+            
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" class="logo"/>
+                        
+                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" class="logo" /> -->
+                    </div>
+
+                </div>
+
+                <div class="skill-type">
+                    <p>Other Technologies: Excel, Microsoft Azure</p>
+                </div>
+
+            </div>
+
+
+            <div id="xp-link" class="anchor"></div>
             <div id="experience-container" class="tag">
                 <p class="heading">Experience</p>
                 <hr />
@@ -90,6 +186,7 @@
 
             </div>
 
+            <div id="ed-link" class="anchor"></div>
             <div id="education" class="tag">
                 <p class="heading">Education</p>
                 <hr />
@@ -119,65 +216,7 @@
                 
             </div>
 
-
-            <div id="skills" class="tag">
-                <p class="heading">Technical Skills</p>
-                <div class="skill-type">
-                    <!-- <p>Programming Languages:</p> -->
-
-                    <div>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="logo"/>
-                    
-                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" class="logo"/> -->
-            
-                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" class="logo" /> -->
-          
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" class="logo" />
-
-                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class="logo" /> -->
-
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="logo" />
-
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="logo"/>
-
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="logo" />
-
-                    </div>
-                </div>
-
-                <div class="skill-type">
-                    <!-- <p >Libraries/Frameworks/Auxiliary Languages:</p> -->
-
-                    <div>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-plain.svg" class="logo"/>
-
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" class="logo" />
-
-                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" class="logo"/> -->
-            
-                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" class="logo" /> -->
-
-                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" class="logo" /> -->
-
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" class="logo" />
-
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" class="logo"/>
-            
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" class="logo"/>
-            
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" class="logo"/>
-                        
-                        <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" class="logo" /> -->
-                    </div>
-
-                </div>
-
-                <div class="skill-type">
-                    <p>Other Technologies: Excel, Microsoft Azure</p>
-                </div>
-
-            </div>
-
+            <div id="cert-link" class="anchor"></div>
             <div id="certifications" class="tag">
                 <p class="heading">Certifications/Awards</p>
                 <!-- <div class="cert-item"><img src="assets/cert.png" class="cert-img"><p class="cert">Google Data Analytics Professional</p></div> -->
@@ -187,13 +226,15 @@
 
             </div>
 
+            <div id="int-link" class="anchor"></div>
             <div id="interests" class="tag">
                 <p class="heading">Interests</p>
-                <img src="assets/interest-collage.png" width="1632px" height="904px">
+                <img src="assets/interest-collage.png" width="72%" height="72%">
             </div>
 
         </div>
         
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="scripts/scripts.js"></script>
+        <script src="scripts/sticky_nav.js"></script>
 </body>
