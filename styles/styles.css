@@ -65,7 +65,7 @@ body {
     font-size: 40px;
 }
 
-#background {
+/* #background {
     height: 100%;
     width: 100%;
     flex-direction: column;
@@ -90,7 +90,7 @@ body {
     border-radius: 10px;
     padding-left: 6px;
     padding-right: 6px;
-}
+} */
 
 #content {
     text-align: center;
@@ -118,6 +118,13 @@ body {
 .social-button:hover{
     background-color: white;
     color:black;
+}
+
+#doggie{
+    width: 45%;
+    height: 45%;
+    border-radius: 8px;
+    margin-bottom: 12px;
 }
 
 #nav-menu{

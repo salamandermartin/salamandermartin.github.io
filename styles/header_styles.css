@@ -1,0 +1,26 @@
+#background {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background-image: url("../assets/colton-duke-nyclandscape.jpg");
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+}
+
+#bg-content {
+    background-color: rgba(68,71,77, 0.35);
+    padding-top: 3px;
+    height:100%;
+    text-align: center;
+}
+
+#name {
+    margin: auto;
+    width: max-content;
+    background-color: rgba(0,0,0,0.6);
+    color:white;
+    border-radius: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
