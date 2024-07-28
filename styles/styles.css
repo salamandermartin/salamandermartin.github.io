@@ -96,30 +96,6 @@ body {
     text-align: center;
 }
 
-#socials {
-    display: flex;
-    flex-direction: row;
-    border-radius: 10px;
-    width: 21vw;
-    margin: auto;
-    background-color: rgba(68,71,77, 0.3);
-    border: solid;
-    text-decoration: none;
-}
-
-.social-button{
-    height: 3vw;
-    width: 5vw;
-    padding: 1vw;
-    border-radius: 15px;
-    transition: 0.3s;
-}
-
-.social-button:hover{
-    background-color: white;
-    color:black;
-}
-
 #doggie{
     width: 45%;
     height: 45%;
@@ -254,7 +230,7 @@ body {
 }
 
 .cert-img{
-    height: 80px;
+    height: 64px;
     width: 48px;
     margin-right: 5px;
 }
