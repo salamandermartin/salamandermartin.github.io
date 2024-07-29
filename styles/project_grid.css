@@ -1,10 +1,54 @@
 #project-grid {
     display: grid;
-    gap: 3vw;
+    gap: 2vw;
     grid-template-columns: auto auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
 }
 
 .grid-item{
-    
+    text-align: left;
+    border-radius: 10px;
+    padding: 0.5vw;
+}
+
+.grid-item:hover{
+    background-color: #eddbcd;
+    box-shadow: 3px 3px;
+    transition: 0.4s;
+}
+
+.project-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.project-blurb{
+    display:flex;
+    flex-direction: column;
+}
+
+.project-pic{
+    height: 8vw;
+    width: 8vw;
+}
+
+.pr-title{
+    margin-left: 25%;
+    font-size: 24px;
+}
+
+.pr-text{
+    position:relative;
+}
+
+.prt-top{
+    vertical-align: top;
+    top: 0;
+}
+
+.prt-bot{
+    vertical-align: bottom;
+    bottom: 0;
 }

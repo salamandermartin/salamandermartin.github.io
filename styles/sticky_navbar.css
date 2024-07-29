@@ -1,9 +1,9 @@
 #nav_sticky {
     overflow: hidden;
-    background-color: #433D8B;
+    background-color: #404a42;
     border: solid;
-    border-color: #2E236C;
-    color: aliceblue;
+    border-color: #192231;
+    color: #f4f4f4;
     justify-content: space-around;
     /* visibility: hidden; */
     z-index: 2;
