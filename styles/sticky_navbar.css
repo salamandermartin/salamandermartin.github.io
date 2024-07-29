@@ -1,8 +1,11 @@
 #nav_sticky {
     overflow: hidden;
-    background-color: azure;
+    background-color: #433D8B;
+    border: solid;
+    border-color: #2E236C;
+    color: aliceblue;
     justify-content: space-around;
-    visibility: hidden;
+    /* visibility: hidden; */
     z-index: 2;
     margin-bottom: 15px;
 }
