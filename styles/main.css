@@ -473,6 +473,15 @@ section,
   margin-bottom: 0;
 }
 
+.skill-type {
+  margin: auto;
+  text-align: center;
+}
+
+#blurb {
+  padding-bottom: 4vw;
+}
+
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/

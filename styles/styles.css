@@ -65,6 +65,34 @@ h1 {
     text-align: left;
 }
 
+.date{
+    margin-top: 0px;
+}
+
+#exp-item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#education{
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
+
+.ed-item{
+    display: grid;
+    padding: 2px;
+    column-gap: 2vw;
+    grid-template-columns: auto 90%;
+    grid-template-rows: auto auto;
+}
+
+#ed-item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
 #skills{
     width: 60%;
     margin: auto;
