@@ -1,13 +1,3 @@
-
-h1 {
-    font-size: 50px;
-}
-
-.visible {
-    opacity: 1;
-    transform: translate(0,0);
-}
-
 .logo{
     width: 50px;
     height: 50px;
@@ -72,36 +62,6 @@ h1 {
 #exp-item1{
     grid-row-start: 1;
     grid-row-end: 3;
-}
-
-#education{
-    text-align: left;
-    width: 60%;
-    margin: auto;
-}
-
-.ed-item{
-    display: grid;
-    padding: 2px;
-    column-gap: 2vw;
-    grid-template-columns: auto 90%;
-    grid-template-rows: auto auto;
-}
-
-#ed-item1{
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-#skills{
-    width: 60%;
-    margin: auto;
-    text-align: center;
-}
-
-.skill-type{
-    display: flex;
-    flex-direction: column;
 }
 
 #interests{
