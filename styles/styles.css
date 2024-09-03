@@ -3,12 +3,6 @@ h1 {
     font-size: 50px;
 }
 
-.tag {
-    opacity: 0;
-    transform: translate(0, 10vh);
-    transition: all 1s;
-}
-
 .visible {
     opacity: 1;
     transform: translate(0,0);
@@ -44,51 +38,6 @@ h1 {
     margin-bottom: 12px;
 }
 
-#nav-menu{
-    text-align: left;
-    width: 20%;
-    background-color: rgba(15, 15, 15, 0.25);
-    margin-left: 32%;
-    margin-top: 3vw;
-    font-size: 20px;
-    padding: 5px;
-    color: white;
-    border-radius: 6px;
-}
-
-.nav-menu-btn span{
-    transition: 0.4s;
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    padding: 1vw;
-    text-align: center;
-}
-
-.nav-menu-btn span:after{
-    transition: 0.4s;
-    content: '\00bb';
-    position: relative;
-    opacity: 0;
-    top: 0;
-    right: -15px;
-}
-
-.nav-menu-btn:hover span{
-    padding-right: 1vw;
-}
-
-.nav-menu-btn:hover span:after{
-    opacity:1;
-    right: 0;
-}
-
-#about-me{
-    width: 30%;
-    margin: auto;
-    text-align: center;
-}
-
 #experience-container{
     width: 55%;
     text-align: left;
@@ -116,34 +65,6 @@ h1 {
     text-align: left;
 }
 
-.date{
-    margin-top: 0px;
-}
-
-#exp-item1{
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-#education{
-    text-align: left;
-    width: 60%;
-    margin: auto;
-}
-
-.ed-item{
-    display: grid;
-    padding: 2px;
-    column-gap: 2vw;
-    grid-template-columns: auto 90%;
-    grid-template-rows: auto auto;
-}
-
-#ed-item1{
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
 #skills{
     width: 60%;
     margin: auto;
@@ -153,27 +74,6 @@ h1 {
 .skill-type{
     display: flex;
     flex-direction: column;
-}
-
-#certifications{
-    margin: auto;
-    width: 60%;
-    text-align: left;
-}
-
-.cert-item{
-    display: flex;
-    flex-direction: row;
-}
-
-.cert{
-    font-size: 19px;
-}
-
-.cert-img{
-    height: 64px;
-    width: 48px;
-    margin-right: 5px;
 }
 
 #interests{
